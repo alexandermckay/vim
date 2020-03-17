@@ -7,3 +7,18 @@
 [submodule "pack/alexmckay/start/nord"]
 	path = pack/alexmckay/start/nord
 	url = https://github.com/arcticicestudio/nord-vim.git
+[submodule "pack/alexmckay/start/vimproc"]
+	path = pack/alexmckay/start/vimproc
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "pack/alexmckay/start/tsuquyomi"]
+	path = pack/alexmckay/start/tsuquyomi
+	url = https://github.com/Quramy/tsuquyomi.git
+[submodule "pack/alexmckay/start/typescript-vim"]
+	path = pack/alexmckay/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/alexmckay/start/vim-js-indent"]
+	path = pack/alexmckay/start/vim-js-indent
+	url = https://github.com/jason0x43/vim-js-indent.git
+[submodule "pack/alexmckay/start/vim-styled-components"]
+	path = pack/alexmckay/start/vim-styled-components
+	url = https://github.com/styled-components/vim-styled-components.git
