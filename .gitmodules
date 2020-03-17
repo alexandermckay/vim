@@ -31,3 +31,6 @@
 [submodule "pack/alexmckay/start/auto-pairs"]
 	path = pack/alexmckay/start/auto-pairs
 	url = git@github.com:jiangmiao/auto-pairs.git
+[submodule "pack/alexmckay/start/vim-jsx-pretty"]
+	path = pack/alexmckay/start/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git

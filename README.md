@@ -22,6 +22,7 @@ export MYVIMRC='~/.vim/vimrc
 - `git submodule add <repo url> pack/alexmckay/start/<repo name>`
 - `cd pack/alexmckay/start`
 - `vim -u NONE -c "helptags <repo name>/doc" -c q`
+vim -u NONE -c "helptags <repo name>/doc" -c q
 
 ## Plugins
 
@@ -47,3 +48,17 @@ export MYVIMRC='~/.vim/vimrc
 #### Visual Mode
 - Visual mode - `vS<symtag>`
 - Visual block mode - `VS<symtag>`
+
+#### AutoPairs
+
+- Automatically close `''`, `[]`, `{}` and so on
+
+#### Jump
+
+- It is possible to jump to the closing bracket if it has just been opened
+```
+{
+  something; (press } here to jump to closing bracket)
+}
+```
+
