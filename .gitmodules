@@ -1,0 +1,9 @@
+[submodule "pack/alexmckay/start/nerdtree"]
+	path = pack/alexmckay/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/alexmckay/start/lightline"]
+	path = pack/alexmckay/start/lightline
+	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/alexmckay/start/nord"]
+	path = pack/alexmckay/start/nord
+	url = https://github.com/arcticicestudio/nord-vim.git
