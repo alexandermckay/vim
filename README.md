@@ -16,6 +16,13 @@ export MYVIMRC='~/.vim/vimrc
 - `git submodule init`
 - `git submodule update`
 
+## Adding Plugins
+
+- `cd ~./vim`
+- `git submodule add <repo url> pack/alexmckay/start/<repo name>`
+- `cd pack/alexmckay/start`
+- `vim -u NONE -c "helptags <repo name>/doc" -c q`
+
 ## Plugins
 
 ### Surround
