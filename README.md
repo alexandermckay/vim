@@ -15,3 +15,28 @@ export MYVIMRC='~/.vim/vimrc
 - `cd .vim`
 - `git submodule init`
 - `git submodule update`
+
+## Plugins
+
+### Surround
+
+- Add, change and remove surrounding symbols and tags
+- `<symtag>` - placeholder for symbol (`!`, `@`, `#`) or tag (`<div>`, `<Button>`)
+
+#### Change
+- Change surrounding - `cs<symtag><symtag>`
+- Change to tag - `cs<symtag><symtag>`
+- Chage existing tag - `cst<symtag>`
+
+#### Add
+- Add surrounding - `ys<motion><symtag>`
+- Left version of symbol includes spacing (eg: `ysiw[` results in `[ word ]`)
+- Right version of symbol does not include spacing (eg: `ysiw]` results in `[word]`)
+- Entire lines - `yss<symtag>`
+
+#### Delete
+- `ds<symbol>`
+
+#### Visual Mode
+- Visual mode - `vS<symtag>`
+- Visual block mode - `VS<symtag>`

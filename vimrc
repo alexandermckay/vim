@@ -27,6 +27,7 @@ set laststatus=2
 
 " Theme
 colorscheme nord
+let g:lightline = { 'colorscheme': 'nord' } 
 
 " Typescript Syntax
 let g:typescript_indent_disable = 1

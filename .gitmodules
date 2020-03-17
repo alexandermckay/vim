@@ -22,3 +22,6 @@
 [submodule "pack/alexmckay/start/vim-styled-components"]
 	path = pack/alexmckay/start/vim-styled-components
 	url = https://github.com/styled-components/vim-styled-components.git
+[submodule "pack/alexmckay/start/vim-surround"]
+	path = pack/alexmckay/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
