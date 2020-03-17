@@ -25,3 +25,6 @@
 [submodule "pack/alexmckay/start/vim-surround"]
 	path = pack/alexmckay/start/vim-surround
 	url = git@github.com:tpope/vim-surround.git
+[submodule "pack/alexmckay/start/vim-react-snippets"]
+	path = pack/alexmckay/start/vim-react-snippets
+	url = git@github.com:mlaursen/vim-react-snippets.git
